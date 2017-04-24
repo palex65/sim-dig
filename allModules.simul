@@ -1,0 +1,8 @@
+# Todos os módulos da biblioteca
+Switch = Switch ; setLabel("Power")
+DipSwitch = DipSwitch(4)
+D7Seg = D7Seg
+LCD = LCD
+Keyboard = Keyboard("\u0022\u0023[\u03B1\u03B2]^[.]#v[Rec].",3,3) # Comment
+KeyMatrix = KeyMatrix("[\u03B1\u03B2]123456789ABCDE[last]",4,4)
+

@@ -1,0 +1,11 @@
+# Módulos
+d7s = D7Seg; "7Seg" # Display de 7 segmentos
+dec = HexTo7Seg     # Conversor hexadecimal para 7 segmentos
+ctr = Counter(4)    # Contador de 4 bits
+
+# Ligações
+ctr.out[0:3] -> dec.D[0:3]
+dec.S[0:6] -> d7s.[a:g]
+1 -> ctr.ce
+0 -> ctr.ar, ctr.down
+
